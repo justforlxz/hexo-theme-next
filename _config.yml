@@ -138,13 +138,14 @@ exturl: false
 # External url should start with http:// or https://
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
-  archives: /archives/ || archive
+  about: /about/ || user
+  tags: /tags/ || tags
+  categories: /categories/ || th
+  #archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
+  Links: link
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -157,10 +158,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-#scheme: Gemini
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -175,12 +176,12 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
-  #Weibo: https://weibo.com/yourname || weibo
+social:
+  GitHub: https://github.com/justforlxz || github
+  E-Mail: mailto:justforlxz@gmail.com || envelope
+  Weibo: https://weibo.com/5906290378 || weibo
   #Google: https://plus.google.com/yourname || google
-  #Twitter: https://twitter.com/yourname || twitter
+  Twitter: https://twitter.com/justforlxz || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -246,8 +247,8 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
-  #display: always
+  #display: post
+  display: always
   #display: hide
   #display: remove
 
@@ -510,7 +511,7 @@ pangu: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 49e5979358cb9ca19e5e56fc4adc4a98
 
 # Growingio Analytics ID
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
@@ -518,8 +519,8 @@ pangu: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: ilxz
   count: true
   lazyload: false
 
@@ -618,7 +619,7 @@ needmoreshare2:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-129024325-1
 
 # Bing Webmaster tools verification setting
 # See: https://www.bing.com/webmaster
@@ -710,7 +711,7 @@ busuanzi_count:
   post_views_icon: eye
 
 # Tencent analytics ID
-#tencent_analytics:
+tencent_analytics: 66105211
 
 # Tencent MTA ID
 #tencent_mta:
@@ -1060,3 +1061,6 @@ vendors:
 css: css
 js: js
 images: images
+
+passage_end_tag:
+  enabled: true
