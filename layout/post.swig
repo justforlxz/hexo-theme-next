@@ -21,9 +21,3 @@
 {% block script_extra %}
   {% include '_scripts/pages/post-details.swig' %}
 {% endblock %}
-
-<div>
-  {% if not is_index %}
-    {% include 'passage-end-tag.swig' %}
-  {% endif %}
-</div>

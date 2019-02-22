@@ -1,4 +1,4 @@
-<div>    
+<div>
  {# 表示如果不在索引列表中加入后续的HTML代码 #}
  {% if not is_index %}
     <ul class="post-copyright">
